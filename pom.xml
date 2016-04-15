@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>test-java</groupId>
   <artifactId>test-java</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1.RC1</version>
   <name>test-java</name>
   <scm>
       <url>https://github.com/sheepstarli/test-java</url>
       <connection>scm:git:git@github.com:sheepstarli/test-java.git</connection>
       <developerConnection>scm:git:git@github.com:sheepstarli/test-java.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>v1.0.1.RC1</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
