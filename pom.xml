@@ -2,32 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>test-java</groupId>
   <artifactId>test-java</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>test-java</name>
-  <repositories>
-		<repository>
-			<id>ruyicai</id>
-			<name>Ruyicai Repository</name>
-			<url>http://202.43.152.168/nexus/content/repositories/public/</url>
-		</repository>
-		<repository>
-			<id>hongxu</id>
-			<name>hongxu Repository</name>
-			<url>http://210.51.174.131:8081/nexus/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>momoplan-maven-release</id>
-			<name>momoplan maven release</name>
-			<url>http://repo1.maven.org/maven2</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>ruyicai</id>
-			<name>Ruyicai Repository</name>
-			<url>http://202.43.152.168/nexus/content/repositories/public/</url>
-		</pluginRepository>
-	</pluginRepositories>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -35,8 +11,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
     </plugins>
@@ -116,11 +92,6 @@
 		<groupId>joda-time</groupId>
 		<artifactId>joda-time</artifactId>
 		<version>2.3</version>
-	</dependency>
-	<dependency>
-		<groupId>pinyin4j</groupId>
-		<artifactId>pinyin4j</artifactId>
-		<version>2.5.0</version>
 	</dependency>
 	<dependency>
 	    <groupId>com.qiniu</groupId>
