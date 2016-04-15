@@ -1,9 +1,9 @@
 package concurrent;
 
+import java.util.concurrent.CountDownLatch;
+
 import http.HttpResult;
 import http.HttpUtil;
-
-import java.util.concurrent.CountDownLatch;
 
 public class ConcurrentTesting {
 	
